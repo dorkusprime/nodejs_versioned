@@ -4,9 +4,9 @@ MAINTAINER Jevon Wild <jevon@delectable.com>
 # Install Node.js
 RUN \
   cd /tmp && \
-  wget http://nodejs.org/dist/v0.11.8/node-v0.11.8.tar.gz && \
-  tar xvzf node-v0.11.8.tar.gz && \
-  rm -f node-v0.11.8.tar.gz && \
+  wget http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz && \
+  tar xvzf node-v0.10.33.tar.gz && \
+  rm -f node-v0.10.33.tar.gz && \
   cd node-v* && \
   ./configure && \
   CXX="g++ -Wno-unused-local-typedefs" make && \
