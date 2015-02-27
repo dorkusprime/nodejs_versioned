@@ -3,7 +3,7 @@
 
 This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
-There is only one tag in this Docker repo: `0.11.9`.
+The `master` branch here corresponds to the `lastest` tag in Dockerhub, which installs Nodejs@latest. Any other versions are under their own branches here, and correspond to their versioned tags in Dockerhub.
 
 ### Base Docker Image
 
@@ -16,7 +16,7 @@ There is only one tag in this Docker repo: `0.11.9`.
 
 2. Download [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/nodejs:0.11.9`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dorkusprime/nodejs:0.11.9" github.com/dockerfile/nodejs`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="dorkusprime/nodejs:latest" github.com/dorkusprime/nodejs_versioned`)
 
 
 ### Usage
