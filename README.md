@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) for [Do
 
 ### Base Docker Image
 
-* [dorkusprime/python](http://dockerfile.github.io/#/python)
+* [dockerfile/python](http://dockerfile.github.io/#/python)
 
 
 ### Installation
