@@ -1,7 +1,6 @@
 FROM dockerfile/python
 MAINTAINER Jevon Wild <jevon@delectable.com>
 
-
 # Install Node.js
 RUN \
   cd /tmp && \
