@@ -1,9 +1,7 @@
-## Node.js 0.11.9 Dockerfile
+## Node.js 0.11.8 Dockerfile
 
 
-This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
-
-There is only one tag in this Docker repo: `0.11.9`.
+This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) at 0.11.8 for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ### Base Docker Image
 
@@ -14,19 +12,19 @@ There is only one tag in this Docker repo: `0.11.9`.
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/nodejs:0.11.9`
+2. Download [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/nodejs:0.11.8`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dorkusprime/nodejs:0.11.9" github.com/dockerfile/nodejs`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="dorkusprime/nodejs:0.11.8" github.com/dockerfile/nodejs`)
 
 
 ### Usage
 
-    docker run -it --rm dorkusprime/nodejs:0.11.9
+    docker run -it --rm dorkusprime/nodejs:0.11.8
 
 #### Run `node`
 
-    docker run -it --rm dorkusprime/nodejs:0.11.9 node
+    docker run -it --rm dorkusprime/nodejs:0.11.8 node
 
 #### Run `npm`
 
-    docker run -it --rm dorkusprime/nodejs:0.11.9 npm
+    docker run -it --rm dorkusprime/nodejs:0.11.8 npm
