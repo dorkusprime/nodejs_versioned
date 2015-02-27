@@ -3,7 +3,7 @@
 
 This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
-The `master` branch here corresponds to the `lastest` tag in Dockerhub, which installs Nodejs@latest. Any other versions are under their own branches here, and correspond to their versioned tags in Dockerhub.
+The `master` branch here corresponds to the `lastest` tag in Dockerhub, which installs `nodejs@latest`. Any other versions are under their own branches here, and correspond to their versioned tags in Dockerhub.
 
 ### Base Docker Image
 
