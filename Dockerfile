@@ -16,9 +16,6 @@ RUN \
   npm install -g npm && \
   echo -e '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc
 
-# Install Bower & Gulp
-RUN npm install -g bower gulp
-
 # Define working directory.
 WORKDIR /data
 
