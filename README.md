@@ -3,6 +3,7 @@
 
 This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dorkusprime/nodejs/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
+There is only one tag in this Docker repo: 0.11.9.
 
 ### Base Docker Image
 
